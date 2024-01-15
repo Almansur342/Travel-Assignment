@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lato:wght@400;700;900&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;500;600;700;800;900;1000&family=Poppins:wght@400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container {
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* nav style starts */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.nav-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-heading h1 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-heading .important {
+  color: #FF5400;
+}
+
+.nav-items ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.nav-items li #home {
+  color: #FF5400;
+  font-weight: 700;
+}
+
+/* nav style ends */
