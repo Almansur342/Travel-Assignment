@@ -19,6 +19,14 @@ p {
   line-height: 26px;
 }
 
+button {
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  padding: 16px 34px;
+
+}
+
 /* nav style starts */
 nav {
   display: flex;
@@ -41,6 +49,10 @@ nav {
 
 .nav-heading .important {
   color: #FF5400;
+}
+
+.nav-items #hamburger {
+  display: none;
 }
 
 .nav-items ul {
@@ -66,3 +78,51 @@ nav {
 }
 
 /* nav style ends */
+
+/* banner section style starts */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.banner {
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  padding: 106px 0;
+  border-radius: 16px;
+}
+  
+
+
+.banner-text {
+  max-width: 675px;
+  text-align: center;
+}
+
+.banner-text h1 {
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form {
+  display:flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 50px auto;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30)
+}
+
+form input {
+  padding: 16px 10px;
+  max-width: 174px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+/*banner section style ends */

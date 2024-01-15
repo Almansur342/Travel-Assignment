@@ -1,0 +1,24 @@
+@media screen and (max-width:600px) {
+  .nav-items ul{
+    display: none;
+  }
+  .nav-items #hamburger{
+      display: block;
+  }
+  .nav-heading h1{
+    font-size: 1.31rem;
+  }
+  .banner{
+    padding: 20px 0;
+  }
+  form{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px;
+  }
+  .banner-text h1{
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  
+}
