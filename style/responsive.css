@@ -47,8 +47,8 @@
 
   .popular-tour-items h1,
   .destination-texts h1,
-  .choose-texts h1
-   {
+  .choose-texts h1,
+  .discount h1{
     font-size: 1.28rem;
     margin-bottom: 10px;
   }
