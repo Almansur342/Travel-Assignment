@@ -48,7 +48,7 @@
   .popular-tour-items h1,
   .destination-texts h1,
   .choose-texts h1,
-  .discount h1{
+  .discount h1 {
     font-size: 1.28rem;
     margin-bottom: 10px;
   }
@@ -60,9 +60,11 @@
   .popular-tour-items ul li {
     margin-top: 10px;
   }
-  .destination{
+
+  .destination {
     margin-bottom: 30px;
   }
+
   .destination-place {
     gap: 10px;
     grid-template-rows: repeat(7, 1fr);
@@ -105,7 +107,8 @@
     grid-row: 7/span 1;
     grid-column: 1/span 12;
   }
-  .choose-texts{
+
+  .choose-texts {
     margin: 10px auto;
   }
 
@@ -130,4 +133,48 @@
     grid-row: 3/span 1;
   }
 
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter-form {
+    margin: 10px auto;
+  }
+
+  .newsletter-input {
+    padding: 16px 100px 16px 10px;
+    margin-left: 7px;
+  }
+
+  .btn {
+    padding: 16px 170px 16px 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+
+  }
+  .newsletter-items p,
+  .newsletter-items h3{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+.newsletter-img img{
+  object-fit: cover;
+  height:300px;
+  border-radius: 16px;
+}
+  .extra {
+    width: 214px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    bottom: 35px;
+    right: 7px;
+  }
+  .extra h2{
+    font-size: 1.3rem;
+  }
+  .extra h4{
+    font-size: 1rem;
+  }
 }

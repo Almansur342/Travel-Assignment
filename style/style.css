@@ -328,7 +328,6 @@ form input {
 
 .newsletter-input {
   padding: 16px 200px 16px 20px;
-  /* margin-top: 16px;*/
    margin-bottom: 16px; 
   margin-left: 25px;
   border-radius: 8px;
@@ -345,6 +344,7 @@ form input {
   padding: 16px 143px;
   margin-left: 25px;
   margin-top: 10px;
+  
 }
 
 .newsletter-items h3{
@@ -384,7 +384,7 @@ font-weight: 800;
 }
 .extra h4{
   color: #FFF;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
