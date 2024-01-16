@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/responsive.css">
+  <script src="https://kit.fontawesome.com/6aa1e7615e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="container head-section">
@@ -31,13 +32,17 @@
       <div class="banner">
           <div class="banner-text">
             <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <p>Welcome to our travel portal, where adventure awaits at every click. Our header is a gateway to wanderlust, beckoning you to discover new.</p>
           </div>
           <form action="">
             <input type="text" placeholder="Where go">
-            <input type="text" placeholder="When">
-            <input type="text" placeholder="Select Type">
-            <button>Find Now</button>
+            <div style="position: relative;">
+              <input type="text" placeholder="When"><span style="position: absolute; right: 5px; top: 17px;"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+           <div style="position: relative;">
+            <input type="text" placeholder="Select Type"><span style="position: absolute; right: 5px; top: 17px;"><i class="fa-solid fa-angle-down"></i></span>
+           </div>
+            <button><span><i style="margin-right: 10px;" class="fa-solid fa-magnifying-glass"></i></span>Find Now</button>
           </form>
       </div>
   </header>
@@ -46,14 +51,13 @@
    <section class="container popular">
      <div class="popular-tour-items">
       <h1>Our Popular Tours</h1>
-      <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+      <p>Join us on an unforgettable journey through the Himalayas. Our popular tour takes you to breathtaking heights, where snow-capped peaks touch the sky.</p>
       <ul>
-        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam</li>
-        <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+        <li>Trek to the iconic base camp, surrounded by towering giants.</li>
+        <li>Discover the mystical monasteries of Paro and the vibrant streets of Thimphu.</li>
+        <li> Connect with local communities, taste regional cuisine, and create lasting memories.</li>
       </ul>
-      <p>Amet consectetur. Vulputate commodo felis molestie risus 
-        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+      <p>Join us on an unforgettable journey through the Himalayas. Our popular tour takes you to breathtaking heights, where snow-capped peaks touch the sky. Immerse yourself in the serenity of ancient monasteries, and breathe in the crisp mountain air.</p>
         <button>Read More</button>
      </div>
      <div class="popular-tour-img">
@@ -65,28 +69,42 @@
    <section class="container destination">
       <div class="destination-texts">
           <h1>Choose Your Destination</h1>
-          <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+          <p>At the crossroads of wanderlust and adventure, lies the exhilarating decision: Where will you go next?.</p>
       </div>
           <div class="destination-place">
-            <div class="destination-img-1">
+            <div class="destination-img-1" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Maldives</h2>
                 <img src="Images/Rectangle 5.png" alt="">
             </div>
-            <div class="destination-img-2">
+            <div class="destination-img-2" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Indonesia</h2>
               <img src="Images/Rectangle 8.png" alt="">
             </div>
-            <div class="destination-img-3">
+            <div class="destination-img-3" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Srilanka</h2>
               <img src="Images/Rectangle 6.png" alt="">
             </div>
-            <div class="destination-img-4">
+            <div class="destination-img-4" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">North America</h2>
               <img src="Images/Rectangle 7.png" alt="">
             </div>
-            <div class="destination-img-5">
+            <div class="destination-img-5" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Kashmir</h2>
               <img src="Images/Rectangle 9.png" alt="">
             </div>
-            <div class="destination-img-6">
+            <div class="destination-img-6" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Bangladesh</h2>
               <img src="Images/Rectangle 11.png" alt="">
             </div>
-            <div class="destination-img-7">
+            <div class="destination-img-7" style="position: relative;">
+              <h2 style="position: absolute; top:50%;
+              left:50%; transform:translate(-50%, -50%); color: white; font-weight: 800; font-size: 1.75rem;">Bandarban</h2>
               <img src="Images/Rectangle 10.png" alt="">
             </div>
           </div>
@@ -96,7 +114,7 @@
    <section class="container choose">
     <div class="choose-texts">
         <h1>Why Choose Us</h1>
-        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        <p>Our team of seasoned travelers lives and breathes exploration. We’ we’re storytellers,and fellow wanderers who share your passion for discovery.</p>
     </div>
     <div class="choose-items">
         <div class="cart-1">
@@ -486,7 +504,7 @@
             </defs>
           </svg>
             <h3>Handpicked Hotels</h3>
-            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+            <p>Nestled amidst lush greenery and overlooking azure waters, our hotel is a sanctuary for discerning travelers. From the moment you step into our elegant lobby, you’ll feel the embrace of comfort and sophistication.</p>
           </div>
         </div>
         <div class="cart-2">
@@ -522,7 +540,7 @@
             </defs>
           </svg>
           <h3>World Class Service</h3>
-          <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          <p>At our hotel,we create memorable experiences.Our dedicated staff ensures your comfort, from warm welcomes to personalized recommendations. Your satisfaction is our priority.</p>
           </div>
         </div>
         <div class="cart-3">
@@ -602,7 +620,7 @@
             </defs>
           </svg>
           <h3>Best Price Guarantee</h3>
-          <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+          <p>Book with confidence! We offer the best rates directly through our website. If you find a lower price elsewhere, we’ll match it. No hidden fees, no surprises—just exceptional value.</p>
         </div>
         </div>
     </div>
@@ -612,7 +630,7 @@
    <section class="container">
     <div class="discount">
       <h1>Deals & Discounts</h1>
-      <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+      <p>Your neighborhood discount store for over 40 years. Find clothing, household products, toys, and more from your favorite brands at the lowest prices1.</p>
     </div>
    </section>
    <!-- newsletter section starts  -->
@@ -637,9 +655,51 @@
     </div>
    </section>
    <!-- newsletter section ends -->
+   <section class="container spot">
+      <div class="visited-spot">
+        <h1>Most Visited Spot in Bangladesh</h1>
+        <p>The Cox’s Bazar Beach, stretching uninterrupted for 120 kilometers, is the fourth longest beach in the world. Its golden sands meet the azure Bay of Bengal, creating a mesmerizing panorama.</p>
+      </div>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59420.951968497284!2d91.95166089171119!3d21.436731606152964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc7ea2ab928c3%3A0x3b539e0a68970810!2z4KaV4KaV4KeN4Ka44Kas4Ka-4Kac4Ka-4Kaw!5e0!3m2!1sbn!2sbd!4v1705415176760!5m2!1sbn!2sbd" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   </section>
   </main>
   <footer>
-
+    <section class="footer"
+      style="
+        background-color: rgba(19, 19, 24, 0.05);
+        text-align: center;
+        padding-top: 110px;
+      "
+    >
+      <h1 class="logo" style="margin-bottom: 15px">Glove <span>Trotters</span></h1>
+      <p class="logo-details" style="margin-bottom: 33px">
+        At our travel hub, we believe that every journey is a story waiting to be written. From ancient ruins to bustling markets,<br> from serene beaches to snow-capped peaks, the world invites you to step beyond your comfort zone.
+      </p>
+      <div style="display: flex; justify-content: center; margin-bottom: 50px">
+        <i
+          style="font-size: 25px; margin-right: 20px"
+          class="fa-brands fa-twitter"
+        ></i
+        ><i
+          style="font-size: 25px; margin-right: 20px"
+          class="fa-brands fa-facebook-f"
+        ></i
+        ><i
+          style="font-size: 25px; margin-right: 20px"
+          class="fa-brands fa-instagram"
+        ></i
+        ><i
+          style="font-size: 25px; margin-right: 20px"
+          class="fa-brands fa-github"
+        ></i>
+      </div>
+      <hr class="line"
+        style="margin-bottom: 50px; margin-right: 284px; margin-left: 284px"
+      />
+      <p style="padding-bottom: 110px">Copyright &copy; 2017, All Rights Reserved.</p>
+    </section>
   </footer>
 </body>
 </html>

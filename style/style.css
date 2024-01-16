@@ -39,7 +39,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .nav-heading {
@@ -95,10 +95,12 @@ nav {
 }
 
 .banner {
-  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
-  padding: 106px 0;
+  padding: 100px 0;
   border-radius: 16px;
+  
 }
 
 
@@ -113,6 +115,10 @@ nav {
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 20px;
+}
+
+.banner-text p {
+  color: #FFF;
 }
 
 form {
@@ -150,7 +156,8 @@ form input {
 .popular-tour-items h1,
 .destination-texts h1,
 .choose-texts h1,
-.discount h1 {
+.discount h1,
+.visited-spot h1 {
   color: #131318;
   font-size: 2.5rem;
   font-weight: 800;
@@ -182,7 +189,8 @@ form input {
 
 .destination-texts,
 .choose-texts,
-.discount {
+.discount,
+.visited-spot {
   margin: 50px auto;
   max-width: 643px;
   text-align: center;
@@ -195,6 +203,7 @@ form input {
 .destination-place img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .destination-place {
@@ -328,7 +337,7 @@ form input {
 
 .newsletter-input {
   padding: 16px 200px 16px 20px;
-   margin-bottom: 16px; 
+  margin-bottom: 16px;
   margin-left: 25px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -344,48 +353,65 @@ form input {
   padding: 16px 143px;
   margin-left: 25px;
   margin-top: 10px;
-  
+
 }
 
-.newsletter-items h3{
+.newsletter-items h3 {
   margin-left: 40px;
   max-width: 350px;
 }
-.newsletter-items p{
+
+.newsletter-items p {
   border-bottom: 1px solid rgba(19, 19, 24, 0.10);
   /* margin-bottom: 10px; */
   padding-bottom: 25px;
   margin-left: 40px;
 
 }
-.newsletter-img{
+
+.newsletter-img {
   position: relative;
 }
 
-.extra{
-border-radius: 16px;
-background: #FF5400;
-width: 324px;
-padding-top: 35px;
-padding-bottom: 35px;
-text-align: center;
-position:absolute;
-transform: rotate(-19.628deg);
-right: 10px;
-bottom: 50px;
+.extra {
+  border-radius: 16px;
+  background: #FF5400;
+  width: 324px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  position: absolute;
+  transform: rotate(-19.628deg);
+  right: 10px;
+  bottom: 50px;
 
 }
 
-.extra h2{
-color: #FFF;
-font-size: 2rem;
-font-weight: 800;
+.extra h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
 
 }
-.extra h4{
+
+.extra h4 {
   color: #FFF;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
 /* newsletter styles ends */
+
+.spot {
+  margin-bottom: 100px;
+}
+
+/* footer */
+.logo {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.logo span{
+color: #FF5400;
+}
